@@ -10,7 +10,7 @@ public class TestNULTestCase  {
     public void testNUL_() throws FileNotFoundException {
         new FileOutputStream("NUL:");
     }
-    
+
     @Test
     public void testNUL() throws FileNotFoundException {
         new FileOutputStream("NUL");
